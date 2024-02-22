@@ -84,6 +84,8 @@ pipeline {
        stage("Trigger CD Pipeline") {
             steps {
                 script {
+			withCredentials([string(credentialsId: 'JENKINS_API_TOKEN', variable: 'jenkins-token')]) 
+                        }
                     sh "curl -v -k --user master:${JENKINS_API_TOKEN} -X POST -H 'cache-control: no-cache' -H 'content-type: application/x-www-form-urlencoded' --data 'IMAGE_TAG=${IMAGE_TAG}' 'http://54.87.224.80:8080/job/gitOps-registration-app-cd/buildWithParameters?token=JENKINS_API_TOKEN'"
                 }
             }
