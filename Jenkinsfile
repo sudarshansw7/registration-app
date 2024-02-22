@@ -84,7 +84,6 @@ pipeline {
        stage("Trigger CD Pipeline") {
             steps {
                 script {
-		    build job: 'registration-app-cd', parameters: [string(name: 'IMAGE_TAG', value: '')]
                     sh "curl -v -k --user master:${JENKINS_API_TOKEN} -X POST -H 'cache-control: no-cache' -H 'content-type: application/x-www-form-urlencoded' --data 'IMAGE_TAG=${IMAGE_TAG}' 'ec2-3-87-194-196.compute-1.amazonaws.com:8080/job/gitOps-registration-app-cd/buildWithParameters?token=JENKINS_API_TOKEN'"
                 }
             }
