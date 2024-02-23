@@ -85,6 +85,7 @@ pipeline {
             steps {
                 script {
                         sh "curl -v -k --user Master:${JENKINS_API_TOKEN} -X POST -H 'cache-control: no-cache' -H 'content-type: application/x-www-form-urlencoded' --data 'IMAGE_TAG=${IMAGE_TAG}' 'http://54.87.224.80:8080/job/registration-app-cd/buildWithParameters?token=JENKINS_API_TOKEN'"
+			build job: 'registration-app-cd', parameters: [string(name: 'IMAGE_TAG', value: 'IMAGE_TAG')]
                  }
             }
        }
