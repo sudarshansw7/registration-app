@@ -1,4 +1,5 @@
-REGISTRATION APPLICATION
+   REGISTRATION APPLICATION
+
 Requirements:
 --> Jenkins
 --> Maven
@@ -8,8 +9,8 @@ Requirements:
 --> Prometheus & Grafana
 --> 3 servers ,t2.large,ubuntu
 
-Jenkins Installations and Configuring Jenkins-Master and Jenkins slave
-         
+   Jenkins Installations and Configuring Jenkins-Master and Jenkins slave
+
 ## Install Java
 $ sudo apt update
 $ sudo apt upgrade
