@@ -76,7 +76,7 @@ Mananage jenkins—>Nodes—>new node—>Name for node(jenkins-agent)--->[clicko
 —-> Labels  [jenkins-agent]
 —-> usage [use this node as much as possible]
 —-> Launch method  [launch agent via ssh]
-—-> host  [private ip of agent]
+—-> host  [private ip of agent(slave)]
 —-> credentials —-> add jenkins—>kind —>[ssh username with privatekey]
 —-> ID [jenkins-Agent]
 —-> username [ubuntu]
