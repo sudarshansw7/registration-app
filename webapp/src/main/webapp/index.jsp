@@ -9,12 +9,13 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url('infosys_building.jpg') no-repeat center center fixed;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/a/a3/Thiruvananthapuram_Infosys_Building.jpg') no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f2f2f2; /* Fallback background color */
   }
   .container {
     background-color: rgba(255, 255, 255, 0.9);
