@@ -9,9 +9,8 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    background: url('infosys_building.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -23,9 +22,9 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 400px;
+    text-align: center;
   }
   h1 {
-    text-align: center;
     color: #333333;
   }
   input[type="text"],
@@ -86,8 +85,8 @@
   </div>
 </form>
 
-<h1 style="text-align:center; color: #333333;">Thank You</h1>
-<h1 style="text-align:center; color: #333333;">... See You Again ...</h1>
+<h1>Thank You</h1>
+<h1>... See You Again ...</h1>
 
 </body>
 </html>
