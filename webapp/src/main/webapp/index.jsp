@@ -1,6 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sudarshan Group of Industries Registration</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  .container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: 0 auto;
+  }
+  h1 {
+    text-align: center;
+    color: #333333;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+</style>
+</head>
+<body>
+
 <form action="action_page.php">
   <div class="container">
-    <h1>WELL COME TO SUDARSHAN GROUP OF INDUSTRIES</h1>
+    <h1>WELCOME TO SUDARSHAN GROUP OF INDUSTRIES</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
      
@@ -9,7 +59,7 @@
     <br>
     
     <label for="mobile"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
+    <input type="text" placeholder="Enter mobile number" name="mobile" id="mobile" required>
     <br>
 
     <label for="email"><b>Enter Email</b></label>
@@ -30,9 +80,10 @@
   <div class="container signin">
     <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
-
-   <h1> Thank You </h1>
-   <br>
-  <h1>                                           .... See You Again ....                                          </h1>
-   
 </form>
+
+<h1 style="text-align:center; color: #333333;">Thank You</h1>
+<h1 style="text-align:center; color: #333333;">... See You Again ...</h1>
+
+</body>
+</html>
