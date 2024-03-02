@@ -7,15 +7,22 @@
 <style>
   body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .container {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 400px;
-    margin: 0 auto;
   }
   h1 {
     text-align: center;
@@ -76,9 +83,6 @@
     <br>
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
     <button type="submit" class="registerbtn">Register</button>
-  </div>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
 </form>
 
